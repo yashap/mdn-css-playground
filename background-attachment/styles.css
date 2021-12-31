@@ -17,6 +17,7 @@ html {
 }
 
 body {
+    /* Tall so we can demonstrate scrolling */
     height: 2000px;
 }
 
@@ -42,7 +43,7 @@ article {
     overflow: auto;
 }
 
-article pre {
+.tall {
     height: 800px;
 }
 
