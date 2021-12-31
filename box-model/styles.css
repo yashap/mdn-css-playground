@@ -1,0 +1,35 @@
+.purple-border {
+    border: 2px solid rebeccapurple;
+}
+
+.blue-border {
+    border: 2px solid blue;
+}
+
+p, ul, li, .block {
+    padding: 10px;   
+}
+
+p, ul {
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}

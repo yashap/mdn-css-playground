@@ -1,0 +1,29 @@
+a[title="Hello"] {
+    color: red;
+}
+
+article p:first-child::first-line {
+    font-weight: bold;    
+}
+
+article p:first-child::first-letter {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 2em;
+}
+
+.notebox {
+    border: 4px solid #666;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.notebox.warning {
+    border-color: orange;
+    font-weight: bold;
+}
+
+.notebox.danger {
+    border-color: red;
+    font-weight: bold;
+}
