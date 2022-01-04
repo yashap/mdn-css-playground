@@ -1,0 +1,129 @@
+/*
+ * Spacing
+ */
+
+table {
+    /*
+     * Normally, table columns tend to be sized according to how much content they
+     * contain, which produces some strange results. With table-layout: fixed, you
+     * can size your columns according to the width of their headings, and then
+     * deal with their content as appropriate
+     */
+    table-layout: fixed;
+    /* Table should fill its container */
+    width: 100%;
+    /* No spaces between borders of table elements */
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+/* Band */
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+/* Year formed */
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+/* No. of Albums */
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+/* Most famous song */
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th, td {
+    padding: 20px;
+}
+
+/*
+Typography
+*/
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th, tfoot th {
+    font-family: 'Rock Salt', cursive;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    /*
+     * By default, cells are given a text-align value of left, and headings are
+     * given a value of center, but generally it looks better to have the alignments
+     * set the same for both.
+     */
+    text-align: center;
+}
+
+tfoot th {
+    /*
+     * Right-align the heading inside the footer so it's more obviously associated
+     * with the data point
+     */
+    text-align: right;
+}
+
+/*
+ * Graphics and colors
+ */
+
+thead, tfoot {
+    background: url(assets/leopardskin.jpeg);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+thead th, tfoot th, tfoot td {
+    /* On top of the leopardprint image, add a subtle gradient */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    /* border: 3px solid purple; */
+}
+
+tbody tr {
+    background-image: url(assets/noise.png);
+}
+
+/*
+ * Zebra striping
+ */
+
+tbody tr:nth-child(odd) {
+    background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e495e4;
+}
+
+/* Fallback for browsers that don't support nth-child */
+table {
+    background-color: #ff33cc;
+}
+
+/* caption */
+
+caption {
+    font-family: 'Rock Salt', cursive;
+    padding: 20px;
+    font-style: italic;
+    /* Display the caption below the table */
+    caption-side: bottom;
+    color: #666;
+    text-align: right;
+    letter-spacing: 1px;
+}
