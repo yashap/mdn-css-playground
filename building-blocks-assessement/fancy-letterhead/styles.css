@@ -12,9 +12,24 @@ body {
 }
 
 article {
+    margin: 0 auto;
     width: 210mm;
     height: 297mm;
-    margin: 20px auto;
+    background: rgb(255, 255, 255);
+    /* Fallback single-image for browsers without multi-background support */
+    background-image: url('./assets/top-image.png');
+    background-position: top center;
+    /* Ideal styles for browsers with multi-background support */
+    background-image: url('./assets/top-image.png'),
+                      url('./assets/bottom-image.png'),
+                      linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.3));
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center,
+                         bottom center,
+                         top center;
+    border-top: 1mm solid red;
+    border-bottom: 1mm solid red;
     position: relative;
 }
 
@@ -36,4 +51,7 @@ h1 {
     padding: 44px 0;
     color: white;
     text-shadow: 1px 1px 1px black;
+    background-image: url('./assets/logo.png');
+    background-repeat: no-repeat;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.8));
 }
