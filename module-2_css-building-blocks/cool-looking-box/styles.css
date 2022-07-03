@@ -1,0 +1,29 @@
+
+html {
+  font-family: sans-serif;
+}
+
+.box {
+  width: 300px;
+  height: 250px;
+  background-color: rgb(255, 0, 0);
+  margin: 0 auto;
+  border-radius: 4%;
+  border: 1px solid rgb(140, 0, 0);
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 35%, rgba(0, 0, 0, 0.2));
+  box-shadow:
+    2px 2px 6px rgba(0, 0, 0, 0.75),
+    inset -2px -2px 6px rgba(0, 0, 0, 0.9),
+    inset 2px 2px 6px rgba(255, 255, 255, 0.9)
+  ;
+}
+
+.box p {
+  margin: 0;
+  text-align: center;
+  line-height: 250px;
+  /* 16px * 1.5 */
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
