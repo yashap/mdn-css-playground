@@ -1,6 +1,6 @@
 # MDN CSS Playground
 
-This is just my notes while working through the [MDN CSS Tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS).
+This is just my notes while working through the [MDN CSS Tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS), to improve my CSS understanding.
 
 ## Progress
 
