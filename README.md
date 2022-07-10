@@ -4,4 +4,4 @@ This is just my notes while working through the [MDN CSS Tutorial](https://devel
 
 ## Progress
 
-Left off [here](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists#list-specific_styles)
+Left off [here](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links)

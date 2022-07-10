@@ -17,6 +17,27 @@ li, p {
     line-height: 1.5;
 }
 
+/* Ordered list styles */
+ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+/* Un-ordered list styles */
+ul {
+    padding-left: 2rem;
+    /* We'll use a background image instead */
+    list-style-type: none;
+}
+
+ul li {
+    padding-left: 2rem;
+    background-image: url('./assets/star.png');
+    background-position: 0 4px;
+    background-size: 1.3rem 1.3rem;
+    background-repeat: no-repeat;
+}
+
 /* Description list (https://www.w3schools.com/tags/tag_dl.asp) styles */
 
 dd, dt {
