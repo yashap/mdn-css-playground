@@ -1,0 +1,49 @@
+/* General styles */
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+ul, ol, dl, p {
+    font-size: 1.5rem;
+}
+
+li, p {
+    line-height: 1.5;
+}
+
+/* Ordered list styles */
+ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+/* Un-ordered list styles */
+ul {
+    padding-left: 2rem;
+    /* We'll use a background image instead */
+    list-style-type: none;
+}
+
+ul li {
+    padding-left: 2rem;
+    background-image: url('./assets/star.png');
+    background-position: 0 4px;
+    background-size: 1.3rem 1.3rem;
+    background-repeat: no-repeat;
+}
+
+/* Description list (https://www.w3schools.com/tags/tag_dl.asp) styles */
+
+dd, dt {
+    line-height: 1.5;
+}
+
+dt {
+    font-weight: bold;
+}
