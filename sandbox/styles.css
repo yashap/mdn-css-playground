@@ -1,8 +1,7 @@
 /* General styles */
 body {
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
-    font-size: 1.2rem;
     font-family: sans-serif;
 }
 
@@ -19,29 +18,58 @@ a {
 }
 
 a:link {
-    color: #265301;
+    color: blue;
 }
 
 a:visited {
-    color: #437A16;
+    color: purple;
 }
 
-a:focus {
+a:focus, a:hover {
     border-bottom: 1px solid;
-    background: #BAE498;
-}
-  
-a:hover {
-    border-bottom: 1px solid;
-    background: #CDFEAA;
 }
 
 a:active {
-    background: #265301;
-    color: #CDFEAA;
+    color: red;
+}
+
+a[href^="http"] {
+    background: url('assets/icons8-external-link.svg') no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+}
+
+/* Button link styles */
+
+a.button {
+    /* Width should be adjusted to use all of the container's width */
+    flex: 1;
+    text-align: center;
+    background-color: rgba(55, 180, 220, 0.4);
+    border: 2px solid rgba(55, 180, 220, 0.9);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a.button:visited, a.button:hover, a.button:focus, a.button:active {
+    color: blue;
+}
+
+a.button:hover {
+    background-color: rgba(55, 180, 220, 0.6);
+}
+
+a.button:active {
+    background-color: rgba(55, 180, 220, 0.25);
 }
 
 /* Utility classes */
 .center {
     text-align: center;
+}
+
+.container {
+    display: flex;
+    /* Gap between items should be 1% of containers width */
+    gap: 1%;
 }

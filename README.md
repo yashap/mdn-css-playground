@@ -4,4 +4,4 @@ This is just my notes while working through the [MDN CSS Tutorial](https://devel
 
 ## Progress
 
-Left off [here](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links#including_icons_on_links)
+Left off [here](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts#active_learning_a_web_font_example)
