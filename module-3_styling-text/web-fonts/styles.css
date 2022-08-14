@@ -16,14 +16,17 @@ body {
 
 h1 {
     font-size: 3.2rem;
+    font-family: 'crete_roundregular', serif;
 }
 
 h2 {
     font-size: 2.4rem;
+    font-family: 'crete_roundregular', serif;
 }
 
 p {
     font-size: 1.4rem;
+    font-family: 'alegreya_sans_scregular', sans-serif;
     line-height: 1.6;
     word-spacing: 0.6rem;
 }

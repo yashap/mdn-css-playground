@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'crete_roundregular';
+    src: url('assets/fonts/creteround-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/creteround-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'alegreya_sans_scregular';
+    src: url('assets/fonts/alegreyasanssc-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/alegreyasanssc-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
